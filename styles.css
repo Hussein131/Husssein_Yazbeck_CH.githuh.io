@@ -15,7 +15,7 @@
 
 nav{
     display: flex;
-    width: 84%;
+    width: 90%;
     margin: auto;
     padding: 20px 0;
     align-items: center;
@@ -110,19 +110,39 @@ span{
     padding-top:5%;
 }
 
-@media only screen and (max-width: 819px) {
+@media only screen and (max-width: 768px) {
     .images {
         display:none;
     }
-    .hero{
-        background-image: url("images/hussien.png");
-        background-repeat: no-repeat;
+    
+    .detel{
+        margin-left: 5%;
+        padding-top: 11.8%;
+        width: 90%;
+    }
+    .detel h1{
+        font-size: 30px;
+        color: #212121;
+        margin-bottom: 20px;
+    }
+    nav{
+        display: flex;
+        width: 84%;
+        margin: auto;
+        padding: 20px 0;
+        align-items: center;
+        justify-content: space-between;
+      
     }
   }
   @media (min-width: 820px) and (max-width: 1024px) {
     .images {
       width:20%;
     }
-    
+  
+
+
   }
 
+ 
+   
