@@ -1,0 +1,267 @@
+
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Website</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="img/LOGO_transparent.png" alt="Logo">
+    <span style="color: #8C55D9;">Bootstrap</span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto">
+      <!-- Navigation links -->
+      <li class="nav-item">
+        <a class="nav-link ff" href="#about-bootstrap">Was ist Bootstrap?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link ff" href="#contents">Inhalte</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link ff" href="#benefits">Nützlichkeit</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link ff" href="#comments">Kommentare</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link ff" href="#learning-resources">Lernressourcen</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link ff" href="#learning-video">Lernvideo</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link ff" href="#Team">Team</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container mt-5">
+  <!-- Main content container -->
+  <!-- About Bootstrap section -->
+  <section id="about-bootstrap" class="bg-light shadow p-5 border-round">
+    <h2 class="mb-3">Was ist Bootstrap?</h2>
+    <p>Bootstrap ist ein Open-Source-Framework für die Frontend-Entwicklung von Websites und Webanwendungen. Es wurde von Twitter entwickelt und ist jetzt ein eigenständiges Projekt, das von einer großen Entwicklergemeinschaft unterstützt wird. Bootstrap bietet eine Sammlung von vorgefertigten HTML-, CSS- und JavaScript-Komponenten und -Stilen, die es Entwicklern ermöglichen, schnell und einfach ansprechende und benutzerfreundliche Webseiten zu erstellen.</p>
+  </section>
+  <!-- Contents of Bootstrap section -->
+  <section id="contents" class="bg-light shadow p-5 border-round mt-5">
+    <h2 class="mb-3">Inhalte von Bootstrap</h2>
+    <div class="row">
+      <!-- Content cards -->
+      <div class="col-md-4 mb-4 mt-4">
+        <div class="card content-card">
+          <div class="card-body">
+            <h5 class="content-card-title text-light mb-4">Grid-System</h5>
+            <p>Das Bootstrap-Grid-System ist ein fundamentaler Bestandteil des Frameworks. Es ermöglicht die einfache Erstellung von responsiven Layouts für Websites.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mt-4">
+        <div class="card content-card">
+          <div class="card-body">
+            <h5 class="content-card-title text-light mb-4">Vorgefertigte UI-Komponenten</h5>
+            <p>Bootstrap bietet eine umfangreiche Sammlung von vorgefertigten UI-Komponenten, wie Buttons, Formulare, Navigationsleisten, Dropdowns, Modals, Karten und vieles mehr.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mt-4">
+        <div class="card content-card">
+          <div class="card-body">
+            <h5 class="content-card-title text-light mb-4">Responsives Design</h5>
+            <p>Bootstrap legt großen Wert auf responsives Design, was bedeutet, dass Websites und Anwendungen, die mit Bootstrap erstellt werden, auf verschiedenen Geräten und Bildschirmgrößen gut funktionieren.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Slider section -->
+  <section class="bg-light shadow p-5 border-round mt-5">
+    <h2 class="mb-3">Slider</h2>
+    <div id="mySlider" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/logo.webp" class="d-block w-100" alt="Image 1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/bootstrap-icons.png" class="d-block w-100" alt="Image 2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/bootstrap.jpg" class="d-block w-100" alt="Image 3">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#mySlider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#mySlider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+<br><br>
+    <!-- Benefits of Bootstrap section -->
+    <section id="benefits" class="bg-light shadow p-5 border-round">
+      <h2 class="mb-3">Warum ist Bootstrap nützlich?</h2>
+      <p>Bootstrap bietet zahlreiche Vorteile, darunter:</p>
+      <br>
+      <ul class="list-group">
+        <li class="list-group-item mb-1"><b> Entwicklung: </b>Bootstrap bietet vorgefertigte Design- und Funktionsbausteine, wodurch die Website-Entwicklung schneller vonstattengeht.</li>
+        <br><li class="list-group-item mb-1 bc2 bc2-hover"><b>Responsives Design:</b> Websites sehen auf verschiedenen Bildschirmgrößen und Geräten gut aus, da Bootstrap responsives Design integriert.</li>
+        <br><li class="list-group-item mb-1"><b>Konsistenz:</b> Bootstrap sorgt für ein einheitliches Erscheinungsbild und Verhalten der Website, was die Benutzererfahrung verbessert.</li>
+        <br><li class="list-group-item mb-1 bc2"><b>Cross-Browser-Kompatibilität:</b> Bootstrap funktioniert in den meisten modernen Webbrowsern, ohne dass Entwickler spezielle Anpassungen vornehmen müssen.</li>
+        <br><li class="list-group-item mb-1"><b>Aktive Gemeinschaft und Dokumentation:</b> Es gibt viele Ressourcen und Unterstützung von der Bootstrap-Community, einschließlich Dokumentation und Tutorials.</li>
+        <br><li class="list-group-item mb-1 bc2"><b>Anpassungsfähigkeit:</b> Bootstrap kann an individuelle Anforderungen angepasst werden, indem Entwickler CSS oder JavaScript hinzufügen oder bearbeiten.</li>
+        <br><li class="list-group-item mb-1"><b>Sicherheit:</b> Bootstrap wird von einer großen Entwicklergemeinschaft überwacht, was dazu beiträgt, Sicherheitsprobleme schnell zu identifizieren und zu beheben. Dies erhöht die Sicherheit von Websites und Anwendungen, die mit Bootstrap erstellt werden.</li>
+      </ul>
+    </section>
+ 
+<br><br>
+  <!-- Comments section -->
+  <section id="comments" class="bg-light shadow p-5 text-center border-round">
+    <div class="container">
+      <h2 class="mb-3 ml-2">Kommentare</h2>
+      <br>
+      <ul class="list-unstyled">
+        <!-- Fiktiver Kommentar 1 -->
+        <li class="media mb-4">
+         
+          <div class="media-body">
+            <h5 class="mt-0 mb-1 mr-5 "><b>Marco Baumann</b></h5>
+            <p>"Ich liebe Bootstrap! Es macht es so einfach, moderne und ansprechende Websites zu erstellen. Die Dokumentation ist großartig, und die Community bietet wertvolle Unterstützung."</p>
+          </div>
+        </li>
+        <!-- Fiktiver Kommentar 2 -->
+        <li class="media mb-4 bc2">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1 mr-5"><b>Noemi Zeugin</b></h5>
+            <p>"Bootstrap hat die Art und Weise, wie ich Webseiten erstelle, revolutioniert. Die vorgefertigten Komponenten und das Grid-System machen die Entwicklung schnell und einfach. Es ist großartig!"</p>
+          </div>
+        </li>
+        <!-- Fiktiver Kommentar 3 -->
+        <li class="media mb-4">
+          
+          <div class="media-body">
+            <h5 class="mt-0 mb-1 mr-5"><b>Nadia Müller</b></h5>
+            <p>"Bootstrap hat meine Entwicklungszeit halbiert und gleichzeitig die Qualität meiner Projekte verbessert. Die responsiven Fähigkeiten sind ein Lebensretter, wenn es darum geht, sicherzustellen, dass meine Websites auf jedem Gerät großartig aussehen."</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+<br><br>
+  <!-- Learning resources section -->
+  <section id="learning-resources" class="bg-light shadow p-5 text-center border-round">
+    <h2 class="text-center my-4">Lernressourcen</h2>
+  <br>  <div class="row">
+      <!-- Bootstrap documentation card -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title lernressourcen-color">Offizielle Dokumentation</h5>
+            <p class="card-text">Die offizielle Dokumentation von Bootstrap ist eine ausgezeichnete Ressource, um die Verwendung des Frameworks zu erlernen. Sie enthält ausführliche Informationen, Beispiele und Anleitungen zur Verwendung von Bootstrap-Komponenten und -Funktionen.</p>
+            <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank" class="btn btn-primary">Dokumentation lesen</a>
+          </div>
+        </div>
+      </div>
+      <!-- Bootstrap themes card -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title lernressourcen-color">Codecademy</h5>
+            <p class="card-text">Codecademy bietet einen interaktiven Kurs für Bootstrap an, der es Ihnen ermöglicht, praktische Erfahrungen mit dem Framework zu sammeln. In diesem Kurs lernen Sie, wie Sie Bootstrap verwenden, um Webseiten zu erstellen und anzupassen.</p>
+            <a href="https://www.codecademy.com/learn/learn-bootstrap" target="_blank" class="btn btn-primary">Themen erkunden</a>
+          </div>
+        </div>
+      </div>
+      <!-- Bootstrap tutorials card -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title lernressourcen-color">Udemy</h5>
+            <p class="card-text">Auf Udemy finden Sie eine Vielzahl von Bootstrap-Kursen, sowohl für Anfänger als auch für fortgeschrittene Entwickler. Diese Kurse werden von erfahrenen Lehrern angeboten und bieten praktische Einblicke in die Verwendung von Bootstrap für die Webentwicklung.</p>
+            <a  href="https://www.udemy.com/" target="_blank" class="btn btn-primary" >Lernen beginnen</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-light shadow p-5 text-center border-round mt-5">
+    <h2 id="learning-video" class="text-center my-4">Lernvideo</h2>
+<video class="video" controls preload="metadata">
+<source src="video/Video.mp4" type="video/mp4"/>
+Your Browser does not support the video element...
+</video>
+  </section>
+<br><br>
+  <!-- Team section -->
+  <footer class="bg-light shadow p-5 text-center border-round">
+    <div class="container" id="Team">
+      <h2 class="text-center my-4">Treffe das Team</h2>
+      <br>
+      <div class="card-group row">
+        <!-- Team Member 1 -->
+        <div class="card col-md-4" style="border-right: 5px solid white;">
+          <br>
+       
+          
+          <div class="card-body">
+            <h5 class="card-title">Hussein Yazbeck</h5>
+            <p class="card-text">Unser Teammitglied Hussein ist ein Experte in der Verwendung von Bootstrap für moderne Webentwicklungslösungen.</p>
+            <a href="#" class="card-link"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="#" class="card-link"><i class="fab fa-instagram"></i> Instagram</a>
+          </div>
+          
+        </div>
+        <!-- Team Member 2 -->
+        <div class="card col-md-4" style="border-right: 5px solid white;">
+          <br>
+        
+          
+          <div class="card-body">
+            <h5 class="card-title">Bilal Bayindir</h5>
+            <p class="card-text">Bilal ist unser erfahrener Designer und Experte für das Erstellen von ansprechenden Benutzeroberflächen mit Bootstrap.</p>
+            <a href="#" class="card-link"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="#" class="card-link"><i class="fab fa-instagram"></i> Instagram</a>
+          </div>
+         
+        </div>
+        <!-- Team Member 3 -->
+        <div class="card col-md-4">
+          <br>
+        
+          <div class="card-body">
+            <h5 class="card-title">Artan Ilazi</h5>
+            <p class="card-text">Artan ist unser Front-End-Entwickler und hat umfangreiche Erfahrung in der Implementierung von Bootstrap-Komponenten.</p>
+            <a href="#" class="card-link"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="#" class="card-link"><i class="fab fa-instagram"></i> Instagram</a>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+  <div class=" text-center p-2 mt-4 footer">
+    © All Copyright 2023 by AHB
+  </div>
+  
+  <!-- Add Bootstrap JS CDN Links -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#mySlider').carousel();
+    });
+  </script>
+</body>
+</html>

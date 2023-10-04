@@ -1,0 +1,173 @@
+
+    /* Custom CSS Styles */
+
+    /* Set the background color of the page */
+    body {
+      background-color: #F2F2F0;
+    }
+
+    /* Style the navbar */
+    .navbar {
+      background-color: white !important;
+    border-bottom: 2px solid #8C55D9!important;;
+    }
+
+    /* Style the navbar brand */
+    .navbar-brand {
+      font-size: 18px;
+      color: #D2BBF2;
+
+    }
+ 
+
+    /* Style the navbar links */
+    .navbar-nav .nav-link {
+      color: #742BD9!important;
+      font-weight: bold;
+      margin-right: 5px;
+    }
+
+    /* Style the navbar links on hover */
+    .navbar-nav .nav-link:hover {
+      color: #8C55D9!important;
+    }
+
+    /* Style the page heading */
+    h2 {
+      color: #8C55D9;
+    }
+
+    /* Style list group items */
+    .list-group-item {
+      background-color: #742BD9;
+      color: white;
+      border-radius: 5px;
+    }
+
+    .list-group-item:hover {
+      background-color: #8c55d9;
+    }
+
+    p{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h2{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .ff{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    /* Remove padding from list */
+    .list-unstyled {
+      padding-left: 0;
+    }
+    .bc2{
+      background-color: #8c55d9;
+    }
+   
+    .bc4{
+      background-color: #D2BBF2;
+    }
+
+    /* Style media elements */
+    .media {
+      background-color: #742BD9;
+      border: 5px solid #D2BBF2;
+      border-radius: 10px;
+      padding: 10px;
+      color: white;
+    }
+    .media:hover {
+      background-color: #8c55d9;
+    }
+    /* Style image thumbnails */
+    .img-thumbnail {
+      border: none;
+      border-radius: 50%;
+    }
+
+    /* Style cards */
+    .card {
+      background-color:  #742BD9;
+      border: 5px solid #D2BBF2;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    /* Style card titles */
+    .card-title {
+      color: #F2F2F0;
+      font-weight: bold;
+    }
+
+    /* Style card links */
+    .card-link {
+      color: #ffffff;
+    }
+
+    /* Remove underline from card links on hover */
+    .card-link:hover {
+      text-decoration: none;
+      color: #F2F2F0;
+    }
+
+    /* Style the background color of a section */
+    .bg-light {
+      background-color: #F2F2F0;
+    }
+
+    /* Style primary buttons */
+    .btn-primary{
+      color: #fff;
+      background-color: #8C55D9 !important;
+      border-color: #C2A0F2 !important;
+    }
+    .btn-primary:hover{
+      color: #fff;
+      background-color: #C2A0F2 !important;
+      border-color: #C2A0F2 !important;
+    }
+
+    /* Style the logo image */
+    .navbar-brand img {
+      max-width: 25%;
+      height: auto;
+    }
+    .footer{
+      background:#D2BBF2;
+      color:#742BD9;
+      border-top:2px solid #742BD9;
+    
+    }
+    .video{
+      border-radius: 20px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Responsive logo size */
+    @media (max-width: 768px) {
+      .navbar-brand img {
+        max-width: 140px;
+      }
+    }
+
+    /* Additional CSS for content cards */
+    .content-card {
+      border: 1px solid ;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      background-color: #742BD9; /* Updated background color */
+      color: white;
+    }
+    .content-card:hover{
+      background-color: #8c55d9;
+    }
+
+    /* Style content card titles */
+    .content-card-title {
+      color: #742BD9;
+      font-weight: bold;
+    }
+  
