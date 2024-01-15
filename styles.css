@@ -80,7 +80,7 @@ span{
     border-radius: 5px;
 }
 
-.images{
+.images {
     width: 45%;
     height: 80%;
     position: absolute;
@@ -88,26 +88,25 @@ span{
     right: 2px;
 }
 
-.images img{
+.images img {
     height: 100%;
     position: absolute;
     left: 50%;
     bottom: 0;
-    transform: translateX(-50%);
-    transition: bottom 1s, left 1s;
+    transform: translateX(-50%) scale(1.1); 
+    transition: bottom 1s, left 1s, transform 1s; 
 }
 
-.images:hover .shape{
+.images:hover .shape {
     bottom: 40px;
 }
 
-.images:hover .hussien{
+.images:hover .hussien {
     left: 75%;
 }
 
-
-#lang{
-    padding-top:5%;
+#lang {
+    padding-top: 5%;
 }
 
 
